@@ -5,56 +5,78 @@
 }
 
 body {
-  background-color: #171010;
+  background: #161414;
 }
 
 .nav {
-  background-color: #362222;
+  background: #352D2D;
   width: 100%;
   height: 50px;
   padding: 30px;
   margin-right: 20px;
+  align-items: center;
 }
 
 .nav a {
   text-decoration: none;
   padding: 5px 16px;
   margin: 10px;
-  margin-right: 100px;
+  padding-right: 50px;
   color: white;
   float: right;
-  font-size: larger;
+  font-size: 25px;
   font-weight: bolder;
 }
-
-#logo {
-  margin-left: 35px;
-  width: 80px;
-  height: 45px;
+.nav a.logo-left{
   float: left;
+  margin-left: 35px;
 }
+.nav a.logo-left img{
+  width: 53px;
+  height: 35px;
+  /* padding-bottom: 12px; */
+}
+
 .content {
-  margin-top: 20px;
+  margin-top: 65px;
 }
-.content p {
-  margin: 10px;
-  padding: 20px;
+.content h1{
+  font-family: 'Yatra One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 85px;
   text-align: center;
   color: white;
-  font-size: 55px;
+  padding-bottom: 32px;
 }
 
 .photos p {
-  font-size: 25px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
 }
 
 .photos {
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
+.shirt,.prize,.stickers
+{
+  width: 33.3%;
+  text-align: center;
+}
 
 .photos img {
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
-  height: 250px;
-  margin-top: 30px;
+  margin-top: 45px;
 }

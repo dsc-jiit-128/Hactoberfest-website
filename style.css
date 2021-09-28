@@ -64,7 +64,8 @@ body{
 	position: relative;
 	float:right;
 	width:50%;
-	right:-14%;
+	right:-25%;
+	/* padding-right: 1%; */
 	height:auto;
 	margin:auto;
 }
