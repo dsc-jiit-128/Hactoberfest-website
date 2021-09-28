@@ -52,6 +52,7 @@ ul.topNav li a{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
+    padding-top: 50px;
 }
 .row::after
 {
@@ -63,21 +64,20 @@ ul.topNav li a{
 .imageClass
 {
     width: 50%;
-    margin-top: 50px;
     float: left;
+    align-items: center;
 }
 
 .comingSoonImg
 {
-    margin-bottom: 50%; */
-    width: 90%;
+        width: 90%;
     margin-left: 8%;
     border-radius: 344px;
 }
 
 .aboutHacktoberfest
 {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 50%;
 
     font-family: Poly;
@@ -88,8 +88,8 @@ ul.topNav li a{
 }
 
 .aboutHacktoberfest p{
-    margin-right: 8%;
-    margin-left: 2%;
+    padding-right: 8%;
+    padding-left: 2%;
     color: #C4A484;
 
     text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
