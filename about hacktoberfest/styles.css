@@ -15,8 +15,9 @@ body{
     display: block;
     width: 100%;
     margin: 0;
-    /* position: absolute; */
     background: #352D2D;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .navbar ul{
     margin: 0;
@@ -25,22 +26,25 @@ body{
 ul.topNav li{
     list-style: none;
     float: left;
-    /* align-items: center; */
 }
 ul.topNav li.topNav-right{
     float: right;
 }
 ul.topNav li img{
-    height: 40%;
-    width: 48%;
+    height: 50%;
+    width: 60%;
     padding: 14px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
 }
 ul.topNav li a{
     display: block;
     text-decoration: none;
-    min-height: 16px;
+    font-size: 27px;
     text-align: center;
-    padding: 14px;
+    padding: 15px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
     color: #fff;
 }
 
@@ -50,6 +54,8 @@ ul.topNav li a{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
+    padding-top: 50px;
+    margin-top: 65px;
 }
 .row::after
 {
@@ -61,59 +67,43 @@ ul.topNav li a{
 .imageClass
 {
     width: 50%;
-    /* padding-top: 10%;
-    padding-bottom: 10%; */
-    margin-top: 40px;
-    /* height: 60em; */
     float: left;
+    align-items: center;
 }
 
 .comingSoonImg
 {
-    align-items: center;
-    /* margin-top: 50%;
-    margin-bottom: 50%; */
     width: 90%;
     margin-left: 8%;
-    /* background: url(.png); */
     border-radius: 344px;
 }
 
 .aboutHacktoberfest
 {
-    margin-top: 40px;
-    
+    /* margin-top: 50px; */
     width: 50%;
-    /* width: 249px; */
-    /* height: 240px; */
-    float: right;
-
     font-family: Poly;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .aboutHacktoberfest p{
-    margin-right: 8%;
-    margin-left: 2%;
+    padding-right: 8%;
+    padding-left: 2%;
     color: #C4A484;
 
-    /* border: 0.5px solid #000000; */
     text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .aboutHacktoberfest p.heading
 {
-    font-size: 28px;
-    line-height: 33px;
-    
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 600;
     color: #C4A484;
     
-    /* border: 0.5px solid #000000; */
     text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
-    
-
 }
 
