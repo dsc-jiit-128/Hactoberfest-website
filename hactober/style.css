@@ -6,11 +6,11 @@
 }
 
 body {
-  background: #161414;
+  background: #379ac496;
 }
 
 .nav {
-  background: #352D2D;
+  background: #017FB5;
   width: 100%;
   height: 110px;
   padding: 30px;
@@ -47,7 +47,7 @@ body {
   font-weight: normal;
   font-size: 85px;
   text-align: center;
-  color: white;
+  color: #FFFF;
   padding-bottom: 32px;
 }
 
@@ -61,7 +61,7 @@ body {
   letter-spacing: 1.2px;
   word-spacing: 3px;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #fff;
+  color: #FFFF;
 }
 
 .photos {
@@ -80,4 +80,31 @@ body {
   width: 350px;
   border-radius: 50%;
   margin-top: 45px;
+}
+
+.free {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+
+  background: #017FB5;
+  align-content: center;
+  padding: 15px;
+  border: none;
+  border-radius: 10%;
+  font-size: 20px;
+  
+}
+
+button a{
+  text-decoration: none;
+  color: #FFFF;
+}
+
+button:hover {
+  cursor: pointer;
+  padding: 16px;
 }

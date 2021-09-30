@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #161414;
+    background: #379ac496;
 }
 
  /*.navbar
@@ -54,7 +54,7 @@ ul.topNav li a{
 }*/
 
 .nav {
-    background: #352D2D;
+    background: #017FB5;
     width: 100%;
     height: 110px;
     padding: 30px;
@@ -103,6 +103,7 @@ ul.topNav li a{
     width: 50%;
     float: left;
     align-items: center;
+
 }
 
 .comingSoonImg
@@ -126,9 +127,9 @@ ul.topNav li a{
 .aboutHacktoberfest p{
     padding-right: 8%;
     padding-left: 2%;
-    color: #C4A484;
+    color: #2B3531;
 
-    text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .aboutHacktoberfest p.heading
@@ -136,8 +137,8 @@ ul.topNav li a{
     font-size: 50px;
     line-height: 57px;
     font-weight: 600;
-    color: #C4A484;
+    color: #212121;
     
-    text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
