@@ -1,6 +1,6 @@
 # Hacktoberfest-Website
 
-<img src="jiit128.png" >
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1S0cxxnFmQ99ExpKxuC5i3ROT2ppA0gs0"></p>
 
 # IMPORTANT INSTRUCTIONS
 1. Leave a comment under the issue, which you want to work on.
