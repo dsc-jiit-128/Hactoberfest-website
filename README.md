@@ -32,7 +32,7 @@ Thanks to everyone who has contributed to this awesome project so far!
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
-Copyright (c) 2020-present, DSC JIIT 128
+Copyright (c) 2021-present, DSC JIIT 128
 
 **How to reach us**
 - For additional information visit our Facebook page at 
