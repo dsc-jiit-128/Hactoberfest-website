@@ -26,9 +26,6 @@ A clone of Hacktober Fest Website
  - Create a separate branch for your changes.
  - Then add a Pull Request.
 
-## Contributors
-Thanks to everyone who has contributed to this awesome project so far!
-<a href="https://github.com/dsc-jiit-128/Hacktoberfest_Website/graphs/contributors"><img src="https://contributors-img.firebaseapp.com/image?repo=dsc-jiit-128/Hacktoberfest_Website/" alt="Image of contributors"></a>
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
