@@ -11,9 +11,9 @@ body{
 #logo
 {
     position: absolute;
-    top:1px;
+    top:35px;
     width:90px;
-    height:90px;
+    height:30px;
 }
 
 .navbar
