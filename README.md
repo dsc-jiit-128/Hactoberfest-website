@@ -26,6 +26,8 @@ A clone of Hacktober Fest Website
  - Create a separate branch for your changes.
  - Then add a Pull Request.
 
+**Time for each Task**
+- **You need to complete the task within 3 days after being assigned**.
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
