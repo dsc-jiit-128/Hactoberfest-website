@@ -16,6 +16,7 @@ body {
   padding: 30px;
   margin-right: 20px;
   /* align-items: center; */
+  overflow: hidden;
 }
 
 .nav a {
@@ -45,7 +46,7 @@ body {
   font-family: 'Yatra One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 85px;
+  font-size: 45px;
   text-align: center;
   color: #FFFF;
   padding-bottom: 32px;
@@ -76,8 +77,8 @@ body {
 }
 
 .photos img {
-  height: 350px;
-  width: 350px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   margin-top: 45px;
 }
@@ -89,7 +90,7 @@ body {
 }
 
 button {
-
+  margin-bottom: 50px;
   background: #017FB5;
   align-content: center;
   padding: 15px;
