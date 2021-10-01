@@ -45,7 +45,7 @@ body {
   font-family: 'Yatra One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 85px;
+  font-size: 75px;
   text-align: center;
   color: #FFFF;
   padding-bottom: 32px;
@@ -55,7 +55,7 @@ body {
   margin: 10px;
   padding: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 600;
   font-style: italic;
   letter-spacing: 1.2px;
@@ -76,8 +76,8 @@ body {
 }
 
 .photos img {
-  height: 350px;
-  width: 350px;
+  height: 280px;
+  width: 310px;
   border-radius: 50%;
   margin-top: 45px;
 }
