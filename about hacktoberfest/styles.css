@@ -128,7 +128,7 @@ ul.topNav li a{
     padding-right: 8%;
     padding-left: 2%;
     color: #2B3531;
-
+    padding-bottom: 3%;
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
@@ -138,7 +138,7 @@ ul.topNav li a{
     line-height: 57px;
     font-weight: 600;
     color: #212121;
-    
+    padding-bottom: 3%;
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
