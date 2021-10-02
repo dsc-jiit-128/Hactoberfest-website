@@ -104,6 +104,7 @@ ul.topNav li a{
     padding-right: 8%;
     padding-left: 2%;
     color: #2B3531;
+    
 
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
@@ -113,6 +114,7 @@ ul.topNav li a{
     font-size: 50px;
     line-height: 57px;
     font-weight: 600;
+    text-align: justify;
     color: #212121;
     
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
