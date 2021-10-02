@@ -60,6 +60,7 @@ ul.topNav li a{
     padding: 30px;
     margin-right: 20px;
     overflow: hidden;
+    margin-bottom: 65px;
     /* align-items: center; */
   }
   
@@ -89,8 +90,7 @@ ul.topNav li a{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    padding-top: 50px;
-    margin-top: 65px;
+    padding: 20px 10px;
 }
 .row::after
 {
@@ -141,5 +141,11 @@ ul.topNav li a{
     color: #212121;
     padding-bottom: 3%;
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
+}
+
+button.happyHacking{
+    margin: auto;
+    font-size: 20px;
+    padding: 18px;
 }
 
