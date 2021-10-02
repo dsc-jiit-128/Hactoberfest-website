@@ -46,7 +46,7 @@ body {
   font-family: 'Yatra One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 75px;
+  font-size: 4rem;
   text-align: center;
   color: #FFFF;
   padding-bottom: 32px;
@@ -70,10 +70,12 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.shirt,.prize,.stickers
-{
-  width: 33.3%;
-  text-align: center;
+.shirt,.prize,.stickers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .photos img {
@@ -108,4 +110,11 @@ button a{
 button:hover {
   cursor: pointer;
   padding: 16px;
+}
+
+@media (max-width:992px) {
+  .photos{
+    flex-direction: column;
+  }
+  
 }
