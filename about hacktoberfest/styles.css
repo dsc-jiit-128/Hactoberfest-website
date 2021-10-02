@@ -59,6 +59,7 @@ ul.topNav li a{
     height: 110px;
     padding: 30px;
     margin-right: 20px;
+    overflow: hidden;
     /* align-items: center; */
   }
   
