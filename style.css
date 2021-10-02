@@ -1,8 +1,8 @@
 body{
 	margin:0;
 	padding:0;
-	background:#fafafa;
-	color:#fff;
+	background:#ffffff;
+	color:rgb(0, 0, 0);
 }
 .main{
 	position: relative;
@@ -238,18 +238,18 @@ footer .content .right input[type="submit"]{
   width: 100%;
   font-size: 18px;
   color: #d9d9d9;
-  background: #eb2f06;
+  background: #035b81;
   outline: none;
   border-radius: 5px;
   letter-spacing: 1px;
   cursor: pointer;
   margin-top: 12px;
-  border: 2px solid #eb2f06;
+  border: 2px solid #035b81;
   transition: all 0.3s ease-in-out;
 }
 .content .right input[type="submit"]:hover{
   background: none;
-  color:  #eb2f06;
+  color:  #035b81;
 }
 footer .content .media-icons a{
   font-size: 16px;
@@ -264,7 +264,7 @@ footer .content .media-icons a{
   transition: all 0.3s ease;
 }
 .content .media-icons a:hover{
-  border-color: #eb2f06;
+  border-color: #035b81;
 }
 footer .bottom{
   width: 100%;
@@ -273,13 +273,13 @@ footer .bottom{
   padding: 0 40px 5px 0;
 }
 footer .bottom a{
-  color: #eb2f06;
+  color: #035b81;
 }
 footer a{
   transition: all 0.3s ease;
 }
 footer a:hover{
-  color: #eb2f06;
+  color: #035b81;
 }
 @media (max-width:1100px) {
   footer .content .middle{
@@ -305,4 +305,7 @@ footer a:hover{
   footer .content .middle{
     padding-left: 0;
   }
+}
+.blueiconcolor {
+	color : blue;
 }
