@@ -144,8 +144,39 @@ ul.topNav li a{
 }
 
 button.happyHacking{
+    position : relative;
     margin: auto;
     font-size: 20px;
-    padding: 18px;
+    padding: 18px 25px;
+    background : lightblue;
+    outline : none;
+    border : 1px solid royalblue;
+    z-index: 1;
 }
 
+.happyHacking a{
+    text-decoration: none;
+    color : royalblue;
+}
+
+
+
+.happyHacking span{
+    width : 0%;
+    height : 100%;
+    position : absolute; 
+    left : 0;
+    top : 0;
+    background-color : #50a3f1;
+    transition : 0.5s ease-in-out;
+    z-index : -1;
+}
+
+button.happyHacking:hover a{
+    color : #B5DEFF;
+}
+
+
+button.happyHacking:hover .button_layer{
+    width : 100%;
+}
