@@ -148,7 +148,8 @@ button.happyHacking{
     margin: auto;
     font-size: 20px;
     padding: 18px 25px;
-    background : rgb(149, 203, 221);
+    /* background : rgb(149, 203, 221); */
+    background-color: #017FB5;;
     border-radius : 10px;
     overflow : hidden;
     outline : none;
@@ -158,8 +159,11 @@ button.happyHacking{
 
 .happyHacking a{
     text-decoration: none;
-    color : rgb(58, 58, 58);
+    /* color : rgb(58, 58, 58); */
+    color: #fff;
+    /* color: #004Cb9; */
     letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 
@@ -178,6 +182,7 @@ button.happyHacking{
 
 button.happyHacking:hover a{
     color : rgb(233, 232, 232);
+    font-weight: 600;
 }
 
 
