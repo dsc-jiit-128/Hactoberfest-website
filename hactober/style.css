@@ -10,7 +10,7 @@ body {
 }
 
 .nav {
-  background: #017FB5;
+  background: #017fb5;
   width: 100%;
   height: 110px;
   padding: 30px;
@@ -29,11 +29,16 @@ body {
   font-size: 25px;
   font-weight: bolder;
 }
-.nav a.logo-left{
+
+.nav a:hover {
+  color: #97e0ff;
+}
+
+.nav a.logo-left {
   float: left;
   margin-left: 35px;
 }
-.nav a.logo-left img{
+.nav a.logo-left img {
   width: 58px;
   height: 35px;
   /* padding-bottom: 12px; */
@@ -42,13 +47,13 @@ body {
 .content {
   margin-top: 65px;
 }
-.content h1{
-  font-family: 'Yatra One', cursive;
+.content h1 {
+  font-family: "Yatra One", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 75px;
   text-align: center;
-  color: #FFFF;
+  color: #ffff;
   padding-bottom: 32px;
 }
 
@@ -61,8 +66,8 @@ body {
   font-style: italic;
   letter-spacing: 1.2px;
   word-spacing: 3px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #FFFF;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffff;
 }
 
 .photos {
@@ -70,8 +75,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.shirt,.prize,.stickers
-{
+.shirt,
+.prize,
+.stickers {
   width: 33.3%;
   text-align: center;
 }
@@ -90,22 +96,22 @@ body {
 }
 
 button {
-
-  background: #017FB5;
+  background: #017fb5;
   align-content: center;
   padding: 15px;
   border: none;
   border-radius: 10%;
   font-size: 20px;
-  
 }
 
-button a{
+button a {
   text-decoration: none;
-  color: #FFFF;
+  color: #ffff;
 }
 
 button:hover {
-  cursor: pointer;
-  padding: 16px;
+  background: linear-gradient(to right, #017fb5 50%, #2c8cb6 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
 }
