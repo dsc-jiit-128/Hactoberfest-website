@@ -1,6 +1,15 @@
-# Hacktoberfest-Website
-
+[<img src="hacktober-image.png">](https://hacktoberfest.digitalocean.com/)
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1S0cxxnFmQ99ExpKxuC5i3ROT2ppA0gs0"></p>
+
+# ABOUT
+
+This repository is presented by DSC JIIT 128 for all those who want to start their open-source journey. 
+
+Contribute by resolving issues mentioned in issues section then make a pull request. If you resolved the issue, your pull request will surely be merged. 
+
+Most of the issues are about resolving the frontend of the website, so it's very easy for everyone to make a contribution.
+
+**So, Start Hacking!**
 
 # IMPORTANT INSTRUCTIONS
 1. Leave a comment under the issue, which you want to work on.
