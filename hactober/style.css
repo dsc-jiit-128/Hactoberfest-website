@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +12,15 @@ body {
 }
 
 .nav {
-  background: #017FB5;
+  background: #017fb5;
   width: 100%;
-  height: 110px;
+  height: 70px;
   padding: 30px;
   margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   /* align-items: center; */
   overflow: hidden;
 }
@@ -26,14 +32,15 @@ body {
   margin: 10px;
   color: white;
   float: right;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-weight: bolder;
 }
-.nav a.logo-left{
+.nav a.logo-left {
   float: left;
   margin-left: 35px;
 }
-.nav a.logo-left img{
+.nav a.logo-left img {
   width: 58px;
   height: 35px;
   /* padding-bottom: 12px; */
@@ -42,13 +49,13 @@ body {
 .content {
   margin-top: 65px;
 }
-.content h1{
+.content h1 {
   font-family: 'Yatra One', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 75px;
   text-align: center;
-  color: #FFFF;
+  color: #ffff;
   padding-bottom: 32px;
 }
 
@@ -61,8 +68,8 @@ body {
   font-style: italic;
   letter-spacing: 1.2px;
   word-spacing: 3px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #FFFF;
+  font-family: 'Cinzel', serif;
+  color: #ffff;
 }
 
 .photos {
@@ -70,8 +77,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.shirt,.prize,.stickers
-{
+.shirt,
+.prize,
+.stickers {
   width: 33.3%;
   text-align: center;
 }
@@ -81,6 +89,9 @@ body {
   width: 310px;
   border-radius: 50%;
   margin-top: 45px;
+  box-shadow: 0px 1px 30px 10px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 1px 30px 10px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 1px 30px 10px rgba(255, 255, 255, 0.75);
 }
 
 .free {
@@ -90,19 +101,17 @@ body {
 }
 
 button {
-
-  background: #017FB5;
+  background: #017fb5;
   align-content: center;
-  padding: 15px;
+  padding: 15px 20px;
   border: none;
-  border-radius: 10%;
+  border-radius: 25px;
   font-size: 20px;
-  
 }
 
-button a{
+button a {
   text-decoration: none;
-  color: #FFFF;
+  color: #ffff;
 }
 
 button:hover {

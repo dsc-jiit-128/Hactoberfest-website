@@ -1,191 +1,214 @@
-body{
-	margin:0;
-	padding:0;
-	background:#ffffff;
-	color:rgb(0, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
-.main{
-	position: relative;
-	height:100vh;
-	width:100%;
-	top:0;
-	left:0;
-	right:0;
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-.main .overlay{
-	position: absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:rgba(0, 0, 0, 0.5);
-	z-index: 0;
+.main .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
-.main #video{
-	position: absolute;
-	z-index: -1;
-	min-height:100%;
-	min-width:100%;
-	width:100%;
-	height:100%;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
-	object-fit: cover;
+.main #video {
+  position: absolute;
+  z-index: -1;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
 }
-.main .navbar{
-	position: absolute;
-	height:auto;
-	width:100%;
-	margin:2% 0;
-	display: flex;
-	align-items: center;
-	overflow: hidden;
-	padding:10px 0;
+.main .navbar {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  margin: 2% 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 10px 0;
 }
-.main .navbar .logo{
-	position: relative;
-	height:auto;
-	width:20%;
-	left:10%;
-	float:left;
-	font-family:'Lato',sans-serif;
-	font-size:35px;
-	font-weight:600;
-	cursor: pointer;
-	text-shadow:0px 0.5px 5px rgba(0, 0, 0, 0.2);
-	transition: 0.1s ease-in-out;
+.main .navbar .logo {
+  position: relative;
+  height: auto;
+  width: 20%;
+  left: 10%;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  cursor: pointer;
+  text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.1s ease-in-out;
 }
-.main .navbar .logo:hover{
-	color:rgba(0, 0, 0, 0.4);
+.main .navbar .logo:hover {
+  color: rgba(0, 0, 0, 0.4);
 }
-.main .navbar  ul{
-	position: relative;
-	float:right;
-	width:50%;
-	right:-25%;
-	/* padding-right: 1%; */
-	height:auto;
-	margin:auto;
+.main .navbar ul {
+  position: relative;
+  float: right;
+  width: 50%;
+  right: -15%;
+  /* padding-right: 1%; */
+  height: auto;
+  margin: auto;
 }
-.main .navbar ul li{
-	list-style-type: none;
-	display: inline-block;
-	height:100%;
-	width:auto;
-	border:1px solid rgba(255, 255, 255, 0.88);
-	border-radius:2px ;
-	cursor: pointer;
-	padding:10px;
-	box-shadow:0px 0.5px 5px rgba(0, 0, 0, 0.2);
-	transition: 0.1s ease-in-out;
-	box-sizing: border-box;
+.main .navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.1s ease-in-out;
+  box-sizing: border-box;
 }
-.main .navbar ul li a{
-	color:#fff;
-	text-align: center;
-	text-decoration: none;
-	font-family:'cinzel',sans-serif;
-	font-size:15px;
-	font-weight:300;
-	display: block;
+.main .navbar ul li a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  padding: 10px 10px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.6s ease-in-out;
+  border-bottom: 1px solid transparent;
 }
-.main .navbar ul li:hover{
-	background:rgba(0, 0, 0, 0.4);
+.main .navbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+  text-decoration: underline;
 }
-.main .heading{
-	position: absolute;
-	height:auto;
-	width:100%;
-	top:50%;
-	padding-top: 100px;
-	transform: translateY(-50%);
-	text-align: center;
-	text-shadow:0px 0.5px 5px rgba(0, 0, 0, 0.2);
+.main .navbar ul li a:hover {
+  color: rgb(184, 184, 184);
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: 100%;
 }
-.main .heading .head{
-	position: relative;
-	font-family: 'RacingSansOne',sans-serif;
-	font-size:48px;
-	font-weight: 600; 
-	color:#fff;
+.main .heading {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 50%;
+  padding-top: 100px;
+  transform: translateY(-50%);
+  text-align: center;
+  text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.2);
 }
-.main .heading .head span{
-	color:#017fb5;
+.main .heading .head {
+  position: relative;
+  font-family: 'Cinzel', serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
 }
-.main .heading  .sub{
-	position: relative;
-	font-family: 'cinzel',sans-serif;
-	font-size:22px;
-	font-weight: 300;
-	padding-top: 40px; 
-	color:#fff;
-	margin:-2% 0 2% 0;
+.main .heading .head span {
+  color: #017fb5;
+  font-family: 'Cinzel', serif;
 }
-.main .heading .btns{
-	height:auto;
-	width:100%;
-	display: flex;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+.main .heading .sub {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  padding-top: 40px;
+  color: #fff;
+  margin: -2% 0 2% 0;
 }
-.main .heading .btns a{
-	color:#fff;
-	text-align: center;
-	text-decoration: none;
-	font-family:'cinzel',sans-serif;
-	font-size:15px;
-	font-weight:300;
-	display:block;
-	border:1px solid rgba(255, 255, 255, 0.5);
-	height:auto;
-	width:150px;
-	padding:10px;
-	display: flex;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	margin-left:1%;
-	border-radius: 2px;
-	transition: 0.5s ease-in-out;
+.main .heading .btns {
+  height: auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-.main .heading .btns a:hover{
-	background:#017fb5;
-	border:1px solid #017fb5;
+.main .heading .btns a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: auto;
+  width: 150px;
+  padding: 10px 18px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1%;
+  border-radius: 8px;
+  transition: 0.5s ease-in-out;
 }
-.main .heading .btns .btn1{
-	background:#017fb5;
-	border:1px solid #017fb5;
+.main .heading .btns a:hover {
+  background: #017fb5;
+  border: 1px solid #017fb5;
 }
-.main .heading .btns .btn1:hover{
-	background:#017fb5;
-	border:1px solid #017fb5 ;
-	color:rgba(255, 255, 255, 0.95);
+.main .heading .btns .btn1 {
+  background: #017fb5;
+  border: 1px solid #017fb5;
+}
+.main .heading .btns .btn1:hover {
+  background: #017fb5;
+  border: 1px solid #017fb5;
+  color: rgba(255, 255, 255, 0.95);
 }
 
-.imga{
-	max-width: 150px;
+.imga {
+  max-width: 150px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
-footer{
+footer {
   width: 100%;
   position: bottom;
   bottom: 0;
   left: 0;
   background: #111;
 }
-footer .content{
+footer .content {
   max-width: 1350px;
   margin: auto;
   padding: 20px;
@@ -193,36 +216,36 @@ footer .content{
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .content p,a{
+footer .content p,
+a {
   color: #fff;
 }
-footer .content .box{
+footer .content .box {
   width: 33%;
   transition: all 0.4s ease;
 }
-footer .content .topic{
+footer .content .topic {
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
-
 }
-footer .content p{
+footer .content p {
   text-align: justify;
 }
-footer .content .lower .topic{
+footer .content .lower .topic {
   margin: 24px 0 5px 0;
 }
-footer .content .lower i{
+footer .content .lower i {
   padding-right: 16px;
 }
-footer .content .middle{
+footer .content .middle {
   padding-left: 80px;
 }
-footer .content .middle a{
+footer .content .middle a {
   line-height: 32px;
 }
-footer .content .right input[type="text"]{
+footer .content .right input[type='text'] {
   height: 45px;
   width: 100%;
   outline: none;
@@ -233,7 +256,7 @@ footer .content .right input[type="text"]{
   font-size: 17px;
   border: 2px solid #222222;
 }
-footer .content .right input[type="submit"]{
+footer .content .right input[type='submit'] {
   height: 42px;
   width: 100%;
   font-size: 18px;
@@ -247,11 +270,11 @@ footer .content .right input[type="submit"]{
   border: 2px solid #035b81;
   transition: all 0.3s ease-in-out;
 }
-.content .right input[type="submit"]:hover{
+.content .right input[type='submit']:hover {
   background: none;
-  color:  #035b81;
+  color: #035b81;
 }
-footer .content .media-icons a{
+footer .content .media-icons a {
   font-size: 16px;
   height: 45px;
   width: 45px;
@@ -263,49 +286,49 @@ footer .content .media-icons a{
   margin: 30px 5px 0 0;
   transition: all 0.3s ease;
 }
-.content .media-icons a:hover{
+.content .media-icons a:hover {
   border-color: #035b81;
 }
-footer .bottom{
+footer .bottom {
   width: 100%;
   text-align: center;
   color: #fdfdff;
   padding: 0 40px 5px 0;
 }
-footer .bottom a{
+footer .bottom a {
   color: #035b81;
 }
-footer a{
+footer a {
   transition: all 0.3s ease;
 }
-footer a:hover{
+footer a:hover {
   color: #035b81;
 }
-@media (max-width:1100px) {
-  footer .content .middle{
+@media (max-width: 1100px) {
+  footer .content .middle {
     padding-left: 50px;
   }
 }
-@media (max-width:950px){
-  footer .content .box{
+@media (max-width: 950px) {
+  footer .content .box {
     width: 50%;
   }
-  .content .right{
+  .content .right {
     margin-top: 40px;
   }
 }
-@media (max-width:560px){
-  footer{
+@media (max-width: 560px) {
+  footer {
     position: relative;
   }
-  footer .content .box{
+  footer .content .box {
     width: 100%;
     margin-top: 30px;
   }
-  footer .content .middle{
+  footer .content .middle {
     padding-left: 0;
   }
 }
 .blueiconcolor {
-	color : blue;
+  color: blue;
 }
