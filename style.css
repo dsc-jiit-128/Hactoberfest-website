@@ -188,6 +188,12 @@ body {
   border: 1px solid #017fb5;
   color: rgba(255, 255, 255, 0.95);
 }
+.btn1:hover{
+	transform: scale(1.1);
+}
+.btn2:hover{
+	transform: scale(1.1);
+}
 
 .imga {
   max-width: 150px;
