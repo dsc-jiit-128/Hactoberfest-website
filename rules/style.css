@@ -91,7 +91,7 @@ ul.topNav li a{
 
 .aboutHacktoberfest
 {
-    /* margin-top: 50px; */
+    margin-top: -50px !important; 
     width: 50%;
     font-family: Poly;
     font-style: normal;
@@ -107,6 +107,9 @@ ul.topNav li a{
     
 
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
+}
+.aboutHacktoberfest p a{
+    text-decoration: none;
 }
 
 .aboutHacktoberfest p.heading
