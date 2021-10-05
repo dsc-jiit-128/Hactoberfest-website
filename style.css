@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+
   background: #ffffff;
   color: rgb(0, 0, 0);
 }
@@ -38,7 +43,11 @@ body {
   position: absolute;
   height: auto;
   width: 100%;
-  margin: 0;
+
+
+
+  margin: 2% 0;
+
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -50,7 +59,9 @@ body {
   width: 20%;
   left: 10%;
   float: left;
-  font-family: "Lato", sans-serif;
+
+  font-family: 'Lato', sans-serif;
+
   font-size: 35px;
   font-weight: 600;
   cursor: pointer;
@@ -65,18 +76,23 @@ body {
   position: relative;
   float: right;
   width: 50%;
+
   right: -25%;
+
   /* padding-right: 1%; */
   height: auto;
   margin: auto;
 }
 .main .navbar ul li {
+
   font-size: 15px;
   margin: 0px 4px;
+
   list-style-type: none;
   display: inline-block;
   height: 100%;
   width: auto;
+
   cursor: pointer;
   padding: 10px;
   display: inline-block;
@@ -194,11 +210,14 @@ body {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+
+  font-family: 'Poppins', sans-serif;
+
   text-decoration: none;
 }
 footer {
@@ -245,7 +264,9 @@ footer .content .middle {
 footer .content .middle a {
   line-height: 32px;
 }
-footer .content .right input[type="text"] {
+
+footer .content .right input[type='text'] {
+
   height: 45px;
   width: 100%;
   outline: none;
@@ -256,7 +277,9 @@ footer .content .right input[type="text"] {
   font-size: 17px;
   border: 2px solid #222222;
 }
+
 footer .content .right input[type="submit"] {
+
   height: 42px;
   width: 100%;
   font-size: 18px;
@@ -270,11 +293,13 @@ footer .content .right input[type="submit"] {
   border: 2px solid #035b81;
   transition: all 0.3s ease-in-out;
 }
+
 .content .right input[type="submit"]:hover {
   background: linear-gradient(to right, #007bff 50%, #3999ff 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.3s ease-out;
+
 }
 footer .content .media-icons a {
   font-size: 16px;
@@ -298,13 +323,17 @@ footer .bottom {
   padding: 0 40px 5px 0;
 }
 footer .bottom a {
-  color: #007bff;
+
+  color: #035b81;
+
 }
 footer a {
   transition: all 0.3s ease;
 }
 footer a:hover {
-  color: #4ca1fc;
+
+  color: #035b81;
+
 }
 @media (max-width: 1100px) {
   footer .content .middle {

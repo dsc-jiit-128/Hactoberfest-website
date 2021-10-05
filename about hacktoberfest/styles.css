@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +10,9 @@
 }
 
 body {
+
   background: #379ac496;
+
 }
 
 /*.navbar
@@ -59,7 +65,9 @@ ul.topNav li a{
   padding: 30px;
   margin-right: 20px;
   overflow: hidden;
-  margin-bottom: 65px;
+
+  margin-bottom: 1.2rem;
+
   /* align-items: center; */
 }
 
@@ -98,6 +106,7 @@ ul.topNav li a{
 .row::after {
   display: table;
   clear: both;
+
   content: " ";
 }
 
@@ -111,27 +120,32 @@ ul.topNav li a{
   width: 90%;
   margin-left: 8%;
   border-radius: 344px;
-}
+
 
 .aboutHacktoberfest {
   /* margin-top: 50px; */
-  width: 50%;
+
+  width: 70%;
   font-family: Poly;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
+
   line-height: 35px;
 }
 
 .aboutHacktoberfest p {
+
   padding-right: 8%;
   padding-left: 2%;
   color: #2b3531;
   padding-bottom: 3%;
+
   /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .aboutHacktoberfest p.heading {
+
   font-size: 50px;
   line-height: 57px;
   font-weight: 600;
@@ -170,20 +184,25 @@ button.happyHacking {
   transition: all 0.3s ease-out;
 }
 
+
 .happyHacking span {
   width: 0%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
+
   background: rgba(48, 141, 233, 0.5);
   border-radius: 10px;
   transition: 0.3s ease-in-out;
+
   z-index: -1;
 }
 
 button.happyHacking:hover a {
-  color: rgb(255, 255, 255);
+
+  color: rgb(233, 232, 232);
+
   font-weight: 600;
 }
 

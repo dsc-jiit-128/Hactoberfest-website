@@ -1,7 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
-
-
 * {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -29,6 +25,9 @@ body {
   align-items: center;
   padding: 32px;
 }
+/* .row{
+    margin: 0px,100px,0px,100px;
+} */
 .navbar ul {
   margin: 0;
   /* padding: 0; */
@@ -53,19 +52,11 @@ ul.topNav li a {
   text-decoration: none;
   font-size: 25px;
   font-weight: bolder;
-
-  font-family: 'Montserrat', sans-serif;
-
   text-align: center;
   padding-right: 50px;
   /* padding-top: 30px;
     padding-bottom: 30px; */
   color: #fff;
-}
-
-
-ul.topNav li a:hover {
-  color: #97e0ff;
 }
 
 .row {
@@ -79,7 +70,7 @@ ul.topNav li a:hover {
 .row::after {
   display: table;
   clear: both;
-  content: ' ';
+  content: " ";
 }
 
 .imageClass {
@@ -92,9 +83,6 @@ ul.topNav li a:hover {
   width: 90%;
   margin-left: 8%;
   border-radius: 344px;
-  box-shadow: 0px 1px 30px 10px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 0px 1px 30px 10px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 0px 1px 30px 10px rgba(255, 255, 255, 0.75);
 }
 
 .aboutHacktoberfest {
@@ -107,24 +95,77 @@ ul.topNav li a:hover {
   line-height: 35px;
 }
 
-
 .aboutHacktoberfest p {
   padding-right: 8%;
   padding-left: 2%;
   color: #2b3531;
-
-  font-family: 'Raleway', sans-serif;
 
   /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .aboutHacktoberfest p.heading {
   font-size: 50px;
-
-  line-height: 100px;
+  line-height: 57px;
   font-weight: 600;
   color: #212121;
-  font-family: 'Cinzel', serif;
 
   /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.faq-heading {
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hr-line {
+  width: 60%;
+  margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body {
+  margin: auto;
+  /* text-align: center; */
+  width: 50%;
+  padding: auto;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+} */
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  /* background-color: #379ac496; */
+  display: none;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: "\02795";
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
