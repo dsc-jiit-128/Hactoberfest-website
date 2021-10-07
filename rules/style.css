@@ -1,53 +1,50 @@
-*
-{
+* {
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
-body{
+body {
     background: #379ac496;
     margin: 0;
 }
-#logo
-{
+
+#logo {
     position: absolute;
-    top:35px;
-    width:58px;
-    height:35px;
+    top: 35px;
+    width: 58px;
+    height: 35px;
 }
 
-.navbar
-{
-    display: block;
-    width: 100%;
-    height: 100px;
-    margin: 0;
+.navbar {
     background: #017FB5;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
+    width: 100%;
+    height: 110px;
+    padding: 40px 40px 0 40px;
+    margin-right: 20px;
     align-items: center;
-    padding: 32px;
+    overflow: hidden;
 }
-.navbar ul{
+
+.navbar ul {
     margin: 0;
     /* padding: 0; */
 }
-ul.topNav li{
-    list-style: none;
+
+.topNav li {
+    /*list-style: none;*/
     float: left;
 }
-ul.topNav li.topNav-right{
+
+.topNav li.topNav-right {
     float: right;
 }
-ul.topNav li img{
+
+.topNav li img {
     height: 50%;
     width: 60%;
-    /* padding-left: 10px; */
-    /* padding: 15px; */
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
 }
-ul.topNav li a{
+
+.topNav li a {
     display: block;
     text-decoration: none;
     font-size: 25px;
@@ -59,39 +56,38 @@ ul.topNav li a{
     color: #fff;
 }
 
-.row
-{
+/*############################### body-styling ###################*/
+.row {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    padding-top: 50px;
-    margin-top: 65px;
+    padding-top: 30px;
+    margin-top: 50px;
 }
-.row::after
-{
+
+/*.row::after {
     display: table;
     clear: both;
     content: " ";
-}
+}*/
 
-.imageClass
-{
-    width: 50%;
+.imageClass {
+    margin-top: -350px;
+    width: 45%;
     float: left;
     align-items: center;
 }
 
-.comingSoonImg
-{
+.comingSoonImg {
     width: 90%;
     margin-left: 8%;
     border-radius: 344px;
 }
 
-.aboutHacktoberfest
-{
+.aboutHacktoberfest {
     /* margin-top: 50px; */
+    border: 1.5px solid green;
     width: 50%;
     font-family: Poly;
     font-style: normal;
@@ -100,7 +96,7 @@ ul.topNav li a{
     line-height: 35px;
 }
 
-.aboutHacktoberfest p{
+.aboutHacktoberfest p {
     padding-right: 8%;
     padding-left: 2%;
     color: #2B3531;
@@ -108,12 +104,18 @@ ul.topNav li a{
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
-.aboutHacktoberfest p.heading
-{
+.aboutHacktoberfest p.heading {
+    /*border: 1px solid red;*/
     font-size: 50px;
     line-height: 57px;
     font-weight: 600;
     color: #212121;
-    
+    letter-spacing: 2px;
+    text-align: center;
     /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.rowDetails li {
+    /*border: 1.5px solid green;*/
+    list-style: disc;
 }
