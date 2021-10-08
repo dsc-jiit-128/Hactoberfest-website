@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, #017fb5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(45 43 43);
+}
+
 body {
   margin: 0;
   padding: 0;
