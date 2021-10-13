@@ -8,15 +8,15 @@
 }
 
 body {
-  background: #379ac496;
+  background: ##367A39;
 }
 
 .nav {
-  background: #017fb5;
+  background: #172F18;
   width: 100%;
-  height: 70px;
-  padding: 30px;
-  margin-right: 20px;
+  height: 60px;
+  padding: 30px 30px;
+  margin-right:15px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,15 +30,15 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   margin: 10px;
-  color: white;
+  color: #fff;
   float: right;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 .nav a.logo-left {
   float: left;
-  margin-left: 35px;
+  margin-left: 32rem;
 }
 .nav a.logo-left img {
   width: 58px;
@@ -56,7 +56,7 @@ body {
   font-size: 75px;
   text-align: center;
   color: #ffff;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .photos p {
@@ -96,22 +96,22 @@ body {
 
 .free {
   display: flex;
-  text-align: center;
+/*   text-align: center; */
   justify-content: center;
 }
 
 button {
   background: #017fb5;
   align-content: center;
-  padding: 15px 20px;
+  padding: 12px 20px;
   border: none;
-  border-radius: 25px;
+  border-radius: 1.5rem;
   font-size: 20px;
 }
 
 button a {
   text-decoration: none;
-  color: #ffff;
+  color: #fff;
 }
 
 button:hover {
