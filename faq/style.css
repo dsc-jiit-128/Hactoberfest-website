@@ -156,6 +156,7 @@ body {
   display: none;
   overflow: hidden;
 }
+
 .faq-page:after {
   font-family: 'Material Icons';
   content: "add_circle";
