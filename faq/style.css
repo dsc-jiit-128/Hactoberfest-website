@@ -132,7 +132,7 @@ body {
   /* background-color: #eee; */
   color: #444;
   cursor: pointer;
-  padding: 30px 20px;
+  padding: 20px 20px;
   width: 60%;
   border: none;
   outline: none;
@@ -141,15 +141,14 @@ body {
 }
 .faq-body {
   margin: auto;
-  /* text-align: center; */
+  text-align: justify;
   width: 50%;
-  padding: auto;
+  font-style: italic;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active,
-.faq-page:hover {
-    background-color: #F9F9F9;
-} */
+.faq-page:hover::after {
+    color: #777;
+} 
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
   padding: 0 18px;
@@ -158,14 +157,14 @@ body {
   overflow: hidden;
 }
 .faq-page:after {
-  content: "\02795";
-  /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
+  font-family: 'Material Icons';
+  content: "add_circle";
+  font-size: 25px;
   float: right;
   margin-left: 5px;
 }
-.active:after {
-  content: "\2796";
-  /* Unicode character for "minus" sign (-) */
+.faq-page.active:after {
+  font-family: 'Material Icons';
+  content: "remove_circle";
+  color: blue;
 }
