@@ -50,5 +50,5 @@ Copyright (c) 2021-present, DSC JIIT 128
 
 [2]: http://www.facebook.com/dscjiitnoida/
 
-### Happy Coding!!
+### Happy Coding!
  
