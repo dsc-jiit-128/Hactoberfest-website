@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: #ffffff;
+  background: #f1dcdc;
   color: rgb(0, 0, 0);
 }
 .main {
@@ -57,11 +57,11 @@ body {
   font-size: 35px;
   font-weight: 600;
   cursor: pointer;
-  text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.3);
   transition: 0.1s ease-in-out;
 }
 .main .navbar .logo:hover {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.5);
 }
 .main .navbar ul {
   position: relative;
@@ -110,7 +110,7 @@ body {
   text-decoration: underline;
 }
 .main .navbar ul li a:hover {
-  color: rgb(184, 184, 184);
+  color: rgb(151, 149, 149);
   background-color: black;
   border-radius: 20px;
   padding: 10px 15px;
@@ -134,7 +134,7 @@ body {
   color: #fff;
 }
 .main .heading .head span {
-  color: #017fb5;
+  color: #0489c2;
   font-family: 'Cinzel', serif;
 }
 .main .heading .sub {
@@ -176,16 +176,16 @@ body {
   transition: 0.5s ease-in-out;
 }
 .main .heading .btns a:hover {
-  background: #017fb5;
-  border: 1px solid #017fb5;
+  background: #0489c2;
+  border: 1px solid #0489c2;
 }
 .main .heading .btns .btn1 {
-  background: #017fb5;
-  border: 1px solid #017fb5;
+  background: #0489c2;
+  border: 1px solid ##0489c2;
 }
 .main .heading .btns .btn1:hover {
-  background: #017fb5;
-  border: 1px solid #017fb5;
+  background: #0489c25;
+  border: 1px solid #0489c2;
   color: rgba(255, 255, 255, 0.95);
 }
 .btn1:hover{
