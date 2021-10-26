@@ -4,8 +4,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: #ffffff;
-  color: rgb(0, 0, 0);
+  background: #44bdbd;
+  color: rgb(67, 189, 189, 0.25);
 }
 .main {
   position: relative;
@@ -21,7 +21,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0);
   z-index: 0;
 }
 .main #video {
@@ -336,5 +336,5 @@ footer a:hover {
   }
 }
 .blueiconcolor {
-  color: blue;
+  color: GREEN;
 }
