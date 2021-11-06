@@ -36,6 +36,11 @@ body {
   font-size: 25px;
   font-weight: bolder;
 }
+
+.nav a:hover {
+  color: #97e0ff;
+}
+
 .nav a.logo-left {
   float: left;
   margin-left: 35px;
@@ -50,7 +55,9 @@ body {
   margin-top: 65px;
 }
 .content h1 {
+
   font-family: 'Yatra One', cursive;
+
   font-style: normal;
   font-weight: normal;
   font-size: 75px;
@@ -68,7 +75,9 @@ body {
   font-style: italic;
   letter-spacing: 1.2px;
   word-spacing: 3px;
+
   font-family: 'Cinzel', serif;
+
   color: #ffff;
 }
 
@@ -115,6 +124,8 @@ button a {
 }
 
 button:hover {
-  cursor: pointer;
-  padding: 16px;
+  background: linear-gradient(to right, #017fb5 50%, #2c8cb6 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
 }

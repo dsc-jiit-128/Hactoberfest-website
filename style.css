@@ -1,9 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
   background: #ffffff;
   color: rgb(0, 0, 0);
 }
@@ -41,7 +43,11 @@ body {
   position: absolute;
   height: auto;
   width: 100%;
+
+
+
   margin: 2% 0;
+
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -53,13 +59,16 @@ body {
   width: 20%;
   left: 10%;
   float: left;
+
   font-family: 'Lato', sans-serif;
+
   font-size: 35px;
   font-weight: 600;
   cursor: pointer;
   text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.2);
   transition: 0.1s ease-in-out;
 }
+
 .main .navbar .logo:hover {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -67,55 +76,57 @@ body {
   position: relative;
   float: right;
   width: 50%;
-  right: -15%;
+
+  right: -25%;
+
   /* padding-right: 1%; */
   height: auto;
   margin: auto;
 }
 .main .navbar ul li {
+
+  font-size: 15px;
+  margin: 0px 4px;
+
   list-style-type: none;
   display: inline-block;
   height: 100%;
   width: auto;
-  outline: none;
+
   cursor: pointer;
   padding: 10px;
-  transition: 0.1s ease-in-out;
-  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
 }
+
+.main .navbar ul li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.main .navbar ul li:hover:after {
+  transform: scaleX(0.9);
+  transform-origin: bottom center;
+}
+
 .main .navbar ul li a {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 300;
+  font-family: "cinzel", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
   display: block;
-  padding: 10px 10px;
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  transition: all 0.6s ease-in-out;
-  border-bottom: 1px solid transparent;
 }
-.main .navbar ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 1px;
-  text-decoration: underline;
-}
-.main .navbar ul li a:hover {
-  color: rgb(184, 184, 184);
-  background-color: black;
-  border-radius: 20px;
-  padding: 10px 15px;
-  width: 100%;
-}
+
 .main .heading {
   position: absolute;
   height: auto;
@@ -128,18 +139,17 @@ body {
 }
 .main .heading .head {
   position: relative;
-  font-family: 'Cinzel', serif;
+  font-family: "RacingSansOne", sans-serif;
   font-size: 48px;
   font-weight: 600;
   color: #fff;
 }
 .main .heading .head span {
-  color: #017fb5;
-  font-family: 'Cinzel', serif;
+  color: #007bff;
 }
 .main .heading .sub {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "cinzel", sans-serif;
   font-size: 22px;
   font-weight: 300;
   padding-top: 40px;
@@ -159,52 +169,55 @@ body {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+  font-family: "cinzel", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
   display: block;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #007bffad;
   height: auto;
   width: 150px;
-  padding: 10px 18px;
+  padding: 10px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   margin-left: 1%;
-  border-radius: 8px;
+  border-radius: 2px;
   transition: 0.5s ease-in-out;
 }
 .main .heading .btns a:hover {
-  background: #017fb5;
-  border: 1px solid #017fb5;
+  background: linear-gradient(to right, #007bff 50%, #3999ff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
 }
 .main .heading .btns .btn1 {
-  background: #017fb5;
-  border: 1px solid #017fb5;
+  font-weight: 400;
+  letter-spacing: 1px;
+  background: #007bff;
+  border: 1px solid #007bff;
 }
 .main .heading .btns .btn1:hover {
-  background: #017fb5;
-  border: 1px solid #017fb5;
-  color: rgba(255, 255, 255, 0.95);
-}
-.btn1:hover{
-	transform: scale(1.1);
-}
-.btn2:hover{
-	transform: scale(1.1);
+  background: linear-gradient(to right, #007bff 50%, #3999ff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
 }
 
 .imga {
-  max-width: 150px;
+  max-width: 200px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   font-family: 'Poppins', sans-serif;
+
   text-decoration: none;
 }
 footer {
@@ -251,7 +264,9 @@ footer .content .middle {
 footer .content .middle a {
   line-height: 32px;
 }
+
 footer .content .right input[type='text'] {
+
   height: 45px;
   width: 100%;
   outline: none;
@@ -262,12 +277,14 @@ footer .content .right input[type='text'] {
   font-size: 17px;
   border: 2px solid #222222;
 }
-footer .content .right input[type='submit'] {
+
+footer .content .right input[type="submit"] {
+
   height: 42px;
   width: 100%;
   font-size: 18px;
   color: #d9d9d9;
-  background: #035b81;
+  background: #007bff;
   outline: none;
   border-radius: 5px;
   letter-spacing: 1px;
@@ -276,9 +293,13 @@ footer .content .right input[type='submit'] {
   border: 2px solid #035b81;
   transition: all 0.3s ease-in-out;
 }
-.content .right input[type='submit']:hover {
-  background: none;
-  color: #035b81;
+
+.content .right input[type="submit"]:hover {
+  background: linear-gradient(to right, #007bff 50%, #3999ff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
+
 }
 footer .content .media-icons a {
   font-size: 16px;
@@ -302,13 +323,17 @@ footer .bottom {
   padding: 0 40px 5px 0;
 }
 footer .bottom a {
+
   color: #035b81;
+
 }
 footer a {
   transition: all 0.3s ease;
 }
 footer a:hover {
+
   color: #035b81;
+
 }
 @media (max-width: 1100px) {
   footer .content .middle {

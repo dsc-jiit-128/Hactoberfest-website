@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -51,12 +53,19 @@ ul.topNav li a {
   text-decoration: none;
   font-size: 25px;
   font-weight: bolder;
+
   font-family: 'Montserrat', sans-serif;
+
   text-align: center;
   padding-right: 50px;
   /* padding-top: 30px;
     padding-bottom: 30px; */
   color: #fff;
+}
+
+
+ul.topNav li a:hover {
+  color: #97e0ff;
 }
 
 .row {
@@ -98,19 +107,24 @@ ul.topNav li a {
   line-height: 35px;
 }
 
+
 .aboutHacktoberfest p {
   padding-right: 8%;
   padding-left: 2%;
   color: #2b3531;
+
   font-family: 'Raleway', sans-serif;
+
   /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .aboutHacktoberfest p.heading {
   font-size: 50px;
+
   line-height: 100px;
   font-weight: 600;
   color: #212121;
   font-family: 'Cinzel', serif;
+
   /* text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25); */
 }
